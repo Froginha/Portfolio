@@ -1,0 +1,265 @@
+
+@media screen and (max-width: 1200px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    
+    #hamburguer-nav {
+        display: flex;        
+    }
+
+    #hamburguer-nav .logo span {
+        color: #D94169;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .container.text {
+  
+      display:flex;
+      font-size: 1.25rem;
+    }
+
+    }
+  
+  @media (max-width: 1200px) {
+    .container-text {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      }
+  
+    .sec-text {
+        width: 145px;
+      }
+  }
+  
+  @media (max-width: 1200px) {
+  .text.sec-text::before {
+  
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 5px;
+      height: 100%;
+      width: 100%;
+      background: rgb(255, 255, 255);
+      border-left: 3px solid #D94169;
+      animation: animate 4s steps(12) infinite;
+  }
+  }
+
+  @media (max-width: 1159px) {
+    .text.sec-text::before {
+    
+      content: "";
+        position: absolute;
+        top: 0;
+        left: 5px;
+        height: 100%;
+        width: 100%;
+        background: #fff8f7;
+        border-left: 3px solid #D94169;
+        animation: animate 4s steps(12) infinite;
+    }
+    }
+
+  
+  @media (max-width: 764px) {
+      .text.sec-text::before {
+      
+        content: "";
+          position: absolute;
+          top: 0;
+          left: 5px;
+          height: 100%;
+          width: 100%;
+          background: rgb(255,243,242);
+          background: linear-gradient(0deg, rgba(255,243,242,1) 0%, rgba(255,242,241,1) 59%, rgba(255,238,236,1) 100%);
+          border-left: 3px solid #D94169;
+          animation: animate 4s steps(12) infinite;
+      }
+      }
+  
+  
+  @media (max-width: 600px) {
+              .text.sec-text::before {
+              
+                  content: "";
+                  position: absolute;
+                  top: 0;
+                  left: 5px;
+                  height: 100%;
+                  width: 100%;
+                  background: #fffdfc;
+                  border-left: 3px solid #D94169;
+                  animation: animate 4s steps(12) infinite;
+              }
+              }
+
+  @media (max-width: 500px) {
+                .text.sec-text::before {
+                
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 5px;
+                    height: 100%;
+                    width: 100%;
+                    background: #fff7f6;
+                    border-left: 3px solid #D94169;
+                    animation: animate 4s steps(12) infinite;
+                }
+                }
+
+  @media (max-width: 500px) {
+                  .text.sec-text::before {
+                  
+                      content: "";
+                      position: absolute;
+                      top: 0;
+                      left: 5px;
+                      height: 100%;
+                      width: 100%;
+                      background: #fff7f6;
+                      border-left: 3px solid #D94169;
+                      animation: animate 4s steps(12) infinite;
+                  }
+                  }
+                  
+                  @media (max-width: 470px) {
+                    .text.sec-text::before {
+                    
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 5px;
+                        height: 100%;
+                        width: 100%;
+                        background: #fff2f0;
+                        border-left: 3px solid #D94169;
+                        animation: animate 4s steps(12) infinite;
+                    }
+                    }
+                    
+                    @media (max-width: 444px) {
+                      .text.sec-text::before {
+                      
+                          content: "";
+                          position: absolute;
+                          top: 0;
+                          left: 5px;
+                          height: 100%;
+                          width: 100%;
+                          background: #ffecea;
+                          border-left: 3px solid #D94169;
+                          animation: animate 4s steps(12) infinite;
+                      }
+                      }
+  
+  @media (max-width: 329px) {
+                  .text.sec-text::before {
+                  
+                      content: "";
+                      position: absolute;
+                      top: 0;
+                      left: 5px;
+                      height: 100%;
+                      width: 100%;
+                      background: #ffe7e4;
+                      border-left: 3px solid #D94169;
+                      animation: animate 4s steps(12) infinite;
+                  }
+                  }
+  

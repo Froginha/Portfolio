@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Bruna Carrassai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+    <link rel="shortcut icon" type="imagex/png" href="/assets/img/iconpaw.png">
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <span> < </span>
+            Bruna Carrassai
+            <span> /> </span>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#experience">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburguer-nav">
+        <div class="logo">
+          <span> < </span>Bruna Carrassai<span> /> </span></div>
+        <div class="hamburguer-menu">
+            <div class="hamburguer-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Habilidades</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/img/imagem_2023-09-27_215955985-removebg-preview (1).png" alt="Bruna Carrassai Profile Pic">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Olá Mundo! Me chamo</p>
+            <h1 class="title">Bruna Carrassai</h1>
+
+            <div class="container-text">
+             <!--section__text__p2--> <span class="text first-text">Desenvolvedora</span>
+              <span class="text sec-text">Front-end</span>
+            </div>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/curriculum.pdf')">
+                    Baixe o CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contate-me
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="assets/img/linkedin.png" 
+                alt="My Linkedin Profile" 
+                class="icon" 
+                onclick="window.open('https://www.linkedin.com/in/bruna-carrassai-da-silva-234852232/', '_blank')"/>
+                
+                <img src="assets/img/github.png" 
+                alt="My Github Profile" 
+                class="icon" 
+                onclick="window.open('https://github.com/Froginha', '_blank')"/>
+            </div> 
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Saiba Mais</p>
+        <h1 class="title">Sobre Mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/img/about-pic.jpg" 
+                alt="Profile Picture" 
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                  
+                </div>
+                <div class="text-container">
+                  <p class="about-me-text">
+                    Meu primeiro contato com o desenvolvimento web começou em 2012 com o Tumblr, quando decidi 
+                    tentar e criar novos temas personalizados e isso me ensinou muito sobre HTML e CSS. <br>
+                   Atualmente desenvolvo Front-end com foco na construção de componentes reutilizáveis e otimização de desempenho e também na programação de games e design 2D. <br>
+                    Tenho como foco sempre aprender coisas novas e aprimorar cada vez mais minhas habilidades, para 
+                    o desenvolvimento e eficiência de novos sistemas e na melhoria de existentes para uma melhor experiência do usuário.
+                  </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/img/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+      <div class="container-experience">
+        <p class="section__text__p1">Veja minhas experiências</p>
+        <h1 class="title">Linguagens e Tecnologias</h1>
+        <p class="text-small">Aqui estão as linguagens e tecnologias que eu tenho contato.</p>
+        <div class="experience-details-container" id="card-skills">
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">HTML</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">CSS</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">JavaScript</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">Git</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">Java</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">Python</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">C#</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card scroll scrolled-in">
+            <div class="card-content">
+              <div class="card-content--title">
+                <img class="icon" alt="verificado" src="assets/img/checkmark.png">
+                <h6 class="card-title">PHP</h6>
+                <div> </div>
+              </div>
+            </div>
+          </div>
+        
+          <img 
+        src="assets/img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        />
+      </div>
+    </section>
+    
+
+    <section id="projects">
+        <p class="section__text__p1">Navegue pelos meus</p>
+        <h1 class="title">Projetos</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="assets/img/forms.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Formulário</h2>
+              <!--<p> Criação de form</p>-->
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/Froginha/Form', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://froginha.github.io/Form/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="assets/img/iconpaw.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Em breve</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="assets/img/iconpaw.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Em breve</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/img/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+
+      <section id="contact">
+        <p class="section__text__p1">Entre em</p>
+        <h1 class="title">Contato</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/img/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a target="_blank" href="mailto:carrassaibruna@gmail.com">carrassaibruna@gmail.com</a></p>
+
+            </div>
+
+            <div class="contact-info-container">
+                <img src="assets/img/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a target="_blank" href="https://www.linkedin.com/in/bruna-carrassai-da-silva-234852232/">LinkedIn</a></p>
+
+            </div>
+
+            <div class="contact-info-container">
+                <img src="assets/img/call.png" alt="telefone icon" class="icon contact-icon">
+                <p><a target="_blank" href="https://contate.me/bruna-carrassai">WhatsApp</a></p>
+
+            </div>
+        </div>
+      </section>
+
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#experience">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>&#169; 2023 | Bruna Carrassai</p>
+      </footer>
+    <script src="hamburguer.js"></script>
+    <script src="textanimation.js"></script>
+</body>
+</html>
